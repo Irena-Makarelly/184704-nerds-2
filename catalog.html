@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <title>Nerd's</title>
+      <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <a class="main-logo">
+                    <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип Nerd's">
+                </a>
+                <nav class="main-navigation">
+                    <ul class="main-navigation-list">
+                        <li class="main-navigation-item"><a href="#">Студия</a></li>
+                        <li class="main-navigation-item"><a href="#">Клиенты</a></li>
+                        <li class="main-navigation-item"><a href="#">Магазин</a></li>
+                        <li class="main-navigation-item"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="user-block">
+                    <img src="img/cart-icon.png" width="15" height="15" alt="Login">
+                    <a class="user-block-basket" href="#">Корзина</a>
+                </div>
+                    <h1 class="catalog-caption">Магазин готовых шаблонов</h1>
+            </div>
+        </header>
+        <main class="container">
+            <form class="nerds-catalog-form" action="/nerd's-mail" method="post">
+                <fieldset class="price">
+                    <legend>Стоимость</legend>
+                    <div class="price-slider">
+                    </div>
+                </fieldset>
+                <fieldset class="variant-of-grid">
+                    <legend>Сетка:</legend>
+                    <input type="radio" name="grid" id="grid-adaptive" checked>
+                    <label for="grid-adaptive">Адаптивная</label>
+                    <input type="radio" name="grid" id="grid-fixed">
+                    <label for="grid-fixed">Фиксированная</label>
+                    <input type="radio" name="grid" id="grid-rubber">
+                    <label for="grid-rubber">Резиновая</label>
+                </fieldset>
+                <fieldset class="variant-of-features">
+                    <legend>Особенности:</legend>
+                    <input type="checkbox" name="features" id="slider" checked>
+                    <label for="slider">Слайдер</label>
+                    <input type="checkbox" name="features" id="block-of-features">
+                    <label for="block-of-features">Блок преимуществ</label>
+                    <input type="checkbox" name="features" id="news" checked>
+                    <label for="news">Новости</label>
+                    <input type="checkbox" name="features" id="galery">
+                    <label for="galery">Галерея</label>
+                    <input type="checkbox" name="features" id="basket">
+                    <label for="basket">Корзина</label>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+            <section class="sorting">
+                <div>Сортировать:</div>
+                    <a>По цене</a>
+                    <a>По типу</a>
+                    <a>По названию</a>
+            </section>
+            <section class="catalog-items">
+                <article class="catalog-item">
+                    <section class="catalog-item-sedona">
+                        <img src="img/img-sedona.jpg" width="360" height="575" alt="Sedona">
+                    </section>
+                </article>
+                <article class="catalog-item">
+                    <section class="catalog-item-pink">
+                        <img src="img/img-pink.jpg" width="360" height="575" alt="Pink">
+                    </section>
+                </article>
+                <article class="catalog-item">
+                    <section class="catalog-item-borodinski">
+                        <img src="img/img-barbershop.jpg" width="360" height="575" alt="Borodinski">
+                    </section>
+                </article>
+                <article class="catalog-item">
+                    <section class="catalog-item-mishka">
+                        <img src="img/img-mishka.jpg" width="360" height="575" alt="Mishka">
+                    </section>
+                </article>
+                <article class="catalog-item">
+                    <section class="catalog-item-aplus">
+                        <img src="img/img-aplus.jpg" width="360" height="575" alt="A plus">
+                    </section>
+                </article>
+                <article class="catalog-item">
+                    <section class="catalog-item-kvast">
+                        <img src="img/img-kvast.jpg" width="360" height="575" alt="Kvast">
+                    </section>
+                </article>
+            </section>
+
+            <ul class="catalog-pagination">
+                <li class="btn">1</li>
+                <li><a class="btn" href="#">2</a></li>
+                <li><a class="btn" href="#">3</a></li>
+                <li><a class="btn" href="#">Следующая</a></li>
+            </ul>
+
+            <section class="map">
+                <div class="map-contacts">
+                    <h2 class="map-contacts-subtitle">Nerds design studio</h2>
+                    <p class="map-contacts-text">191186, Санкт-Петербург,ул. Б. Коннюшенная, д. 19/8
+                    <span class="map-contacts-tel"> тел. +7(812)275-75-75 </span></p>
+                    <a class="map-contacts-btn-write-us" href="#">Напишите нам</a>
+                </div>
+                <div class="map-image">
+                    <img src="http://placehold.it/150x100" alt="Nerd's Map">
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <section class="footer-social-button">
+                  <section class="footer-social-button">
+                      <a class="footer-social-btn" href="#"><img src="img/icon-vk.png" width="25" height="25" alt="В Контакте"></a>
+                      <a class="footer-social-btn" href="#"><img src="img/icon-fb.png" width="25" height="25" alt="Фейсбук"></a>
+                      <a class="footer-social-btn" href="#"><img src="img/icon-insta.png" width="25" height="25" alt="Инстаграм"></a>
+                  </section>
+                </section>
+                <section class="footer-proposal">
+                    <div>Давайте дружить, это выгодно!</div>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </section>
+            </div>
+        </footer>
+
+    </body>
